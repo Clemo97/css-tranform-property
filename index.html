@@ -1,22 +1,36 @@
 <!--- The transform property has a variety of functions that let you scale, move, rotate, skew, etc., your elements. 
     When used with pseudo-classes such as :hover that specify a certain state of an element, 
     the transform property can easily add interactivity to your elements.--->>
-<style>
-    div {
-      width: 70%;
-      height: 100px;
-      margin:  50px auto;
-      background: linear-gradient(
-        53deg,
-        #ccfffc,
-        #ffcccf
-      );
-    }
-    div:hover{
-      transform: scale(1.1);
-    }
-  
-  
-  </style>
-  
-  <div></div>
+    <style>
+        div.one {
+          width: 70%;
+          height: 100px;
+          margin:  50px auto;
+          background: linear-gradient(
+            53deg,
+            #ccfffc,
+            #ffcccf
+          );
+        }
+        div:hover{
+          transform: scale(1.1);
+        }
+        div.two {
+           width: 70%;
+          height: 100px;
+          margin:  50px auto;
+          background: linear-gradient(
+            53deg,
+            #ccfffc,
+            #ffcccf
+          );
+        }
+        div:hover{
+          transform: scale(1.1);
+        }
+      
+      
+      </style>
+      
+      <div class="one"></div>
+      <div class="two"></div>
